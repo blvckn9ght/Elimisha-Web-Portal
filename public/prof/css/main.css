@@ -26,6 +26,23 @@
 
  */
 
+ table, th, td {
+  border: 1px solid;
+  padding: 10px;
+  background-color: inherit;
+  table-layout: fixed;
+  text-align: center;
+
+
+
+}
+table, td{
+text-align: center;
+width: 70%;
+
+
+}
+
  #class_teacher_t1{
 
    align-content: center;
@@ -40,7 +57,6 @@
    align-content: center;
    text-align: center;
    padding-left: 10px;
-   padding-bottom: 20px;
    font-size: 15px;
 
  }
@@ -3462,9 +3478,19 @@ Created using IcoMoon - icomoon.io
   overflow: hidden;
   width: 100%;
   margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+
+}
+
   .card .card-body {
-    min-height: 190px; }
+    min-height: 100px;
+
+
+   }
+   .card .h6{
+     margin-top: 20px;
+
+   }
   .card[data-background-color="orange"] {
     background-color: #378C3F; }
   .card[data-background-color="red"] {
